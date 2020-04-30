@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient( #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+}
+#titre {
+    background: linear-gradient(-45deg,yellow,red);
+}
+
+#nb_y {
+    margin-left: 710px;
+    margin-bottom: 30px;
+}
+
+#nb_x, #nb_y{
+    display: none;       
+}
+
+#restart {
+    margin-left: 870px;
+}
+.textPlayer {
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+#player1{
+    margin-left: 250px;
+}
+
+#scoreYellow,#scoreRed {
+    text-align: center;
+}
+
+#player2{
+    margin-left: 250px;
+}
+
+#game {
+    margin-left: 290px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(214, 214, 213, 0.7);
+}
+#choosePlayer{
+    background: rgba(214, 214, 213, 0.5);
+    border-radius: 8px;
+    border: 1px solid lightblue;
+    margin: auto;
+    text-align: center;
+}
+.textPlayer {
+    margin: auto;
+}
+.col {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #23D5AB;
+    margin: 5px;
+    display: inline-block;
+}
+
+.col.empty {
+    cursor: pointer;
+}
+.col.red {
+    background-color: red;
+}
+
+.col.yellow {
+    background-color: yellow;
+}
+
+.col.pred {
+    background-color: darkred;
+}
+
+.col.pyellow {
+    background-color: darkgoldenrod;
+}
+

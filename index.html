@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <script src="puissance.js"></script>
+    <script src="main.js"></script>
+    <title>Puissance4</title>
+</head>
+<body>
+<h1 id="titre">PUISSANCE4</h1>
+<form>
+    <!--Elle est statique la grille pas reussis à la rendre dynamique-->
+    
+    <input type='number' min='1' id='nb_y' placeholder='nombre de colone' max='10' value="6" />
+    <input type='number' min='1' id='nb_x' placeholder='nombre de largeur' max='14' value="7"/>
+    <!-- <input type='submit'class='btn btn-warning' value='Commencer' id='submit'/> -->
+</form>
+
+<main>
+    <div id="player1">
+        <h1 style="background: red; color: white; border-radius: 10px;">Joueur Red</h1>
+        <p id="scoreRed">0</p>
+    </div>
+    <div id="game">
+
+    </div>    
+    <div id="player2">
+        <h1 style="background: yellow; color: black; border-radius: 10px;">Joueur Yellow</h2>
+        <p id="scoreYellow">0</p>
+    </div>
+    
+</main>
+<br><br>
+<div>
+    <div id="choosePlayer" class="col-lg-3"><p class='textPlayer' id='enCours'>Au tour de red de jouer !</p></div>
+    <br><br>    
+    <button id="restart" style="visibility: hidden;">Relancer la partie</button> 
+</div>
+</body>
+</html>
